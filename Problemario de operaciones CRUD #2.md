@@ -50,6 +50,14 @@ CREATE TABLE detalle_pedidos (
 ## Ejercicios CREATE
 
 1. **Inserta 5 productos diferentes en la tabla `productos`.**  
+INSERT INTO productos (nombre, categoria, precio, stock)
+VALUES 
+('Laptop', 'Electrónica', 1200.00, 15),
+('Mouse', 'Accesorios', 25.50, 50),
+('Teclado', 'Accesorios', 45.00, 30),
+('Impresora', 'Electrónica', 300.00, 10),
+('Monitor', 'Electrónica', 250.00, 20);
+
    
    *Instrucción:* Los productos deben incluir un nombre, categoría, precio y stock inicial.
 
