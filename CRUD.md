@@ -1,5 +1,6 @@
 # Operaciones CRUD de MYSQL
-las *CRUD* son un conjunto de 4 operaciones fundamentales en el manejo de bases de datos y plicaciones web CRUD es un acronimo que representa las siguientes operaciones
+las *CRUD* son un conjunto de 4 operaciones fundamentales en el manejo de bases de datos y plicaciones 
+web CRUD es un acronimo que representa las siguientes operaciones
 - **C**reate (create)
 - **R**read (leer)
 - **U**pdate (actualizar)
@@ -13,7 +14,8 @@ CREATE TABLE Usuarios(
     contraseña VARCHAR(15) NOT NULL  CHECK(LENGTH(contraseña) >=8)
 );
 ```
-la operacion **create** es responsable de insertar nuevos datos en la base de datos en lenguaje sql esto se realiza con la sentencia y en el casi de MYSQL el proposito de la operacion es añadir el nuevo registro a una tabla 
+la operacion **create** es responsable de insertar nuevos datos en la base de datos en lenguaje sql esto se realiza con 
+la sentencia y en el casi de MYSQL el proposito de la operacion es añadir el nuevo registro a una tabla 
 
 ```sql
 -- ejemplo de una insercion validad ud'sando todos los campos 
@@ -28,7 +30,8 @@ identifica los tipos de roles que pueden salir en esta tabla
 inserta cuatro registros nuevos en un solo insert 
 
 *R*ead 
-la operacion **leer** es utilizada consultar o para recuperar datos esto no modifica los datos simplemente los extrae. En MYSQK esta operacion se realiza con la sectencia ```SELECT```
+la operacion **leer** es utilizada consultar o para recuperar datos esto no modifica los datos simplemente los extrae. En MYSQK esta 
+operacion se realiza con la sectencia ```SELECT```
 ```sql
 --ejemplo de una consulta de los datos de una tabla 
 SELECT * FROM Usuarios;
@@ -42,7 +45,8 @@ SELECT email, pasword FROM Usuarios;
 SELECT * FROM Usuarios WHERE LENGtH(password)>=9;
 ```
 ### ejercisio
-realiza una consulta que muestre solamente el email pero que consida con una contraseña de mas de 8 caracteres y otras que realice una consulta a los id pares
+realiza una consulta que muestre solamente el email pero que consida con una contraseña de mas de 8 caracteres y otras que realice una 
+consulta a los id pares
 
 # UPDATE
 la operacipon *actualizar* se utiliza para modificar registros exixtentes en la base de datos. esto se hace con la segtencia ```update```
