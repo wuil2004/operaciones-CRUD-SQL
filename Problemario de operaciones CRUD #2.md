@@ -75,7 +75,7 @@ CREATE TABLE detalle_pedidos (
    
    *Instrucción:* Agrupa por `producto_id` y muestra el `nombre` del producto y la cantidad total vendida en todos los pedidos.
 
-## Ejercicios UPDAT
+## Ejercicios UPDATE
 
 1. **Actualiza el precio de todos los productos de una categoria aumentando un 15%.**  
    
