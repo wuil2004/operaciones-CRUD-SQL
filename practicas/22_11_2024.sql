@@ -266,3 +266,7 @@ select m.profesor,count(*)
   m.codigocarrera=c.codigo
   where i.cuota='n'
   group by c.nombre,m.nombre;
+
+
+
+  
