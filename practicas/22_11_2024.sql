@@ -268,4 +268,3 @@ select m.profesor,count(*)
   group by c.nombre,m.nombre;
 
 
-
