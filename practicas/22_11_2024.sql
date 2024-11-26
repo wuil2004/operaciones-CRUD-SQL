@@ -269,4 +269,3 @@ select m.profesor,count(*)
 
 
 
-  
