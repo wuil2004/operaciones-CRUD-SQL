@@ -267,4 +267,3 @@ select m.profesor,count(*)
   where i.cuota='n'
   group by c.nombre,m.nombre;
 
-
